@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from data import year, pop, life_exp, life_exp1950, gdp_cap
+from data import year, pop, life_exp, life_exp1950, gdp_cap, col
 
 # print(year[-1])
 # print(pop[-1])
@@ -48,7 +48,7 @@ np_pop = np.array(pop)
 np_pop = np_pop * 2
 
 # Update: set s argument to np_pop
-plt.scatter(gdp_cap, life_exp, s=np_pop)
+plt.scatter(gdp_cap, life_exp, s=np_pop, c=col, alpha=0.8)
 
 # Previous customizations
 plt.xscale('log')
