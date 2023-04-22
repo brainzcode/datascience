@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from data import year, pop, life_exp, life_exp1950
+from data import year, pop, life_exp, life_exp1950, gdp_cap
 
 # print(year[-1])
 # print(pop[-1])
