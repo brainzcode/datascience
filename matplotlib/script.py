@@ -1,6 +1,8 @@
+from IPython.display import display
 import matplotlib.pyplot as plt
+import pandas as pd
 import numpy as np
-from data import year, pop, life_exp, life_exp1950, gdp_cap, col
+from data import year, pop, life_exp, life_exp1950, gdp_cap, col, data
 
 # print(year[-1])
 # print(pop[-1])
@@ -42,25 +44,28 @@ from data import year, pop, life_exp, life_exp1950, gdp_cap, col
 # plt.show()
 
 # Store pop as a numpy array: np_pop
-np_pop = np.array(pop)
+# np_pop = np.array(pop)
 
-# Double np_pop
-np_pop = np_pop * 2
+# # Double np_pop
+# np_pop = np_pop * 2
 
-# Update: set s argument to np_pop
-plt.scatter(gdp_cap, life_exp, s=np_pop, c=col, alpha=0.8)
+# # Update: set s argument to np_pop
+# plt.scatter(gdp_cap, life_exp, s=np_pop, c=col, alpha=0.8)
 
-# Previous customizations
-plt.xscale('log')
-plt.xlabel('GDP per Capita [in USD]')
-plt.ylabel('Life Expectancy [in years]')
-plt.title('World Development in 2007')
-plt.xticks([1000, 10000, 100000], ['1k', '10k', '100k'])
+# # Previous customizations
+# plt.xscale('log')
+# plt.xlabel('GDP per Capita [in USD]')
+# plt.ylabel('Life Expectancy [in years]')
+# plt.title('World Development in 2007')
+# plt.xticks([1000, 10000, 100000], ['1k', '10k', '100k'])
 
-plt.text(1550, 71, 'India')
-plt.text(5700, 80, 'China')
+# plt.text(1550, 71, 'India')
+# plt.text(5700, 80, 'China')
 
-plt.grid(True)
+# plt.grid(True)
 
-# Display the plot
-plt.show()
+# # Display the plot
+# plt.show()
+
+df = pd.DataFrame(data)
+display(df)

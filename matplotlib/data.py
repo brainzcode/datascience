@@ -19,3 +19,18 @@ gdp_cap = [974.5803384, 5937.029525999999, 6223.367465, 4797.231267, 12779.37964
 
 col = ['red', 'green', 'blue', 'blue', 'yellow', 'black', 'green', 'red', 'red', 'green', 'blue', 'yellow', 'green', 'blue', 'yellow', 'green', 'blue', 'blue', 'red', 'blue', 'yellow', 'blue', 'blue', 'yellow', 'red', 'yellow', 'blue', 'blue', 'blue', 'yellow', 'blue', 'green', 'yellow', 'green', 'green', 'blue', 'yellow', 'yellow', 'blue', 'yellow', 'blue', 'blue', 'blue', 'green', 'green', 'blue', 'blue', 'green', 'blue', 'green', 'yellow', 'blue', 'blue', 'yellow', 'yellow', 'red', 'green', 'green', 'red', 'red', 'red', 'red', 'green', 'red', 'green', 'yellow', 'red', 'red', 'blue', 'red',
        'red', 'red', 'red', 'blue', 'blue', 'blue', 'blue', 'blue', 'red', 'blue', 'blue', 'blue', 'yellow', 'red', 'green', 'blue', 'blue', 'red', 'blue', 'red', 'green', 'black', 'yellow', 'blue', 'blue', 'green', 'red', 'red', 'yellow', 'yellow', 'yellow', 'red', 'green', 'green', 'yellow', 'blue', 'green', 'blue', 'blue', 'red', 'blue', 'green', 'blue', 'red', 'green', 'green', 'blue', 'blue', 'green', 'red', 'blue', 'blue', 'green', 'green', 'red', 'red', 'blue', 'red', 'blue', 'yellow', 'blue', 'green', 'blue', 'green', 'yellow', 'yellow', 'yellow', 'red', 'red', 'red', 'blue', 'blue']
+
+
+data = {'Brand': ['Maruti', 'Hyundai', 'Tata',
+                  'Mahindra', 'Maruti', 'Hyundai',
+                  'Renault', 'Tata', 'Maruti'],
+        'Year': [2012, 2014, 2011, 2015, 2012,
+                 2016, 2014, 2018, 2019],
+        'Kms Driven': [50000, 30000, 60000,
+                       25000, 10000, 46000,
+                       31000, 15000, 12000],
+        'City': ['Gurgaon', 'Delhi', 'Mumbai',
+                 'Delhi', 'Mumbai', 'Delhi',
+                 'Mumbai', 'Chennai',  'Ghaziabad'],
+        'Mileage':  [28, 27, 25, 26, 28,
+                     29, 24, 21, 24]}
