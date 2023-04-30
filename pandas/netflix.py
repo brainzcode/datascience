@@ -34,7 +34,7 @@ plt.title('Netflix Movie Durations 2011-2020', fontsize=14, fontweight='bold')
 # Show the plot
 # plt.show()
 
-netflix_df = pd.read_csv("dataset/netflix_data.csv")
+netflix_df = pd.read_csv("datasets/netflix_data.csv")
 
 # Print the first five rows of the DataFrame
 # print(netflix_df[0:4])
