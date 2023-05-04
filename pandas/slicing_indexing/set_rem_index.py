@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 temperatures = pd.read_csv("datasets/temperatures.csv")
